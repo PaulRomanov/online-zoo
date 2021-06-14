@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../assets/icons/faviconPanda.ico"> <!-- подключение favicon  -->
+  <link rel="stylesheet" href="../normalize.css">
+  <link href="../style.css" rel="stylesheet" id="theme">
+  <link href="map.css" rel="stylesheet" id="themeMap">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <title>online-zoo</title>
+</head>
+
+<body>
+  <!-- 1. Блок Header -->
+  <header>
+    <div class="wrapper-block1">
+      <div class="logo-light">
+        <a class="logo-light-linksrc" href="../index.html">
+          <p class="logo-light-zoo">zoo</p>
+          <p class="logo-light-online">online</p>
+        </a>
+      </div>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="heder-nav-item">
+            <a class="header-nal-link" href="../index.html">About</a>
+          </li>
+          <li class="heder-nav-item">
+            <a class="header-nal-link" href="../pages/zoos/panda/panda.html">Zoos</a>
+          </li>
+          <li class="heder-nav-item">
+            <a class="header-nal-link  header-nal-link-active" href="../pages/map.html">Map</a>
+          </li>
+          <li class="heder-nav-item">
+            <a class="header-nal-link" href="#bottom">Contact Us</a>
+          </li>
+          <li class="heder-nav-item">
+            <a class="header-nal-link" href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a>
+          </li>
+        </ul>
+        <div class="header-nav-close">
+          <span class="header-nav-close-line"></span>
+          <span class="header-nav-close-line"></span>
+        </div>
+      </nav>
+
+      <label class="switch">
+        <input type="checkbox" class="switch-slider">
+        <span class="slider round"></span>
+      </label>
+      <div class="header-burger burger">
+        <div class="burger-line burger-line-first"></div>
+        <div class="burger-line burger-line-second"></div>
+        <div class="burger-line burger-line-third"></div>
+      </div>
+      <h1>Online Zoo</h1>
+  </header>
+
+  <div class="wrapper">
+
+    <h2 class="wrapper-h2">Choose your favorite</h2>
+    <div class="wrapper-text">
+      <p class="wrapper-p">As a voice for wildlife, we are devastated by the impact of
+        the 2020 Australian bushfires on precious species and their habitat, and we are
+        determined to assist in all aspects, including providing veterinary support and
+        raising much-needed emergency funds. Zoo Online saves wildlife and inspires
+        everyone to make conservation a priority in their lives. Animals have the right
+        to a pain-free and happy life. They have equal claim to the resources of this
+        planet, and deserve a life of dignity and compassion.As a voice for wildlife,
+        we are devastated by the impact of the 2020 Australian bushfires on precious
+        species and their habitat.</p>
+    </div>
+
+    <div class="map-slider">
+
+      <div class="map-slider-btn-conteiner">
+        <button class="slider__control map-slider__control_left slider__control_left" id="prevMap" href="#!" role="button">
+        </button>
+        <button class="slider__control map-slider__control_right slider__control_right" id="next" href="#!" role="button">
+        </button>
+      </div>
+
+
+      <div class="map-slider-img-conteiner">
+        <div class="img-collection-item">
+          <img class="img-item" src="../assets/images/zoosGorilla.png" id="pets-img1" alt="Gorilla">
+        </div>
+        <div class="img-collection-item">
+          <img class="img-item" src="../assets/images/mapPanda-active.png" id="pets-img2" alt="panda">
+        </div>
+        <div class="img-collection-item">
+          <img class="img-item" src="../assets/images/Zooscrocodile.png" id="pets-img3" alt="crocodile">
+        </div>
+        <div class="img-collection-item">
+          <img class="img-item" src="../assets/images/zoosEagle.png" id="pets-img4" alt="Eagle">
+        </div>
+        <div class="img-collection-item">
+          <img class="img-item img-item-heden" src="../assets/images/tiger.png" id="pets-img5" alt="tiger">
+        </div>
+        <div class="img-collection-item">
+          <img class="img-item img-item-heden" src="../assets/images/elephant.png" id="pets-img6" alt="elephant">
+        </div>
+        <div class="img-collection-item">
+          <img class="img-item img-item-heden" src="../assets/images/lion.png" id="pets-img7" alt="lion">
+        </div>
+       <div class="img-collection-item">
+         <img class="img-item img-item-heden" src="../assets/images/zebra.png" id="pets-img8" alt="zebra">
+      </div>
+      </div>
+    </div>
+
+    <div class="slidecontainer-map">
+      <span class="wrapper-count">
+        <span class="wrapper-count-start">02</span>
+        <span class="wrapper-count-midl">/</span>
+        <span class="wrapper-count-end">08</span>
+      </span>
+      <input type="range" min="01" max="08" value="02" class="slider-range slider-range-map">
+    </div>
+
+    <div class="map">
+      <div class="int-icon">
+        <div class="int-icon-item-eagle tooltip">
+          <img src="../assets/images/eagleRing.png" alt="eagle" class="item-eagle-img">
+          <svg class="icon-img item-eagle slide-icon-eagle"" width=" 68" height="94" viewBox="0 0 68 94" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M34.0345 0.496094C15.8014 0.496094 0.968262 15.331 0.968262 33.5663C0.968262 51.2064 31.1986 91.3966 32.4864 93.1007C32.8482 93.5871 33.4278 93.871 34.0347 93.871C34.6416 93.871 35.2213 93.5871 35.5831 93.1007C36.8706 91.3966 67.1012 51.2065 67.1012 33.5663C67.1008 15.331 52.2676 0.496094 34.0345 0.496094ZM34.0345 51.0741C24.3831 51.0741 16.5288 43.219 16.5288 33.5663C16.5288 23.9137 24.3831 16.0585 34.0345 16.0585C43.686 16.0585 51.5402 23.9137 51.5402 33.5663C51.5402 43.219 43.686 51.0741 34.0345 51.0741Z" />
+            <defs>
+              <linearGradient id="paint0_linear" x1="-11.38" y1="0.496093" x2="83.3795" y2="20.869"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4BD8B5" />
+                <stop offset="1" stop-color="#49D6DF" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="tooltiptext">
+            <img src="../assets/images/eagletooltip.png" alt="eagle " class="tooltip-img">
+            <h3 class="tooltiptext-h3">West End Bald Eagle</h3>
+            <p class="tooltiptext-p"><b>Region:</b>on an island near Los Angeles</p>
+            <p class="tooltiptext-p"><b>Population:</b>more than 270 pairs in 2013</p>
+          </div>
+        </div>
+
+        <div class="int-icon-item-crocodile tooltip">
+          <img src="../assets/images/crocodileRing.png" alt="crocodile" class="item-crocodile-img">
+          <svg class="icon-img item-crocodile slide-icon-crocodile" width="68" height="94" viewBox="0 0 68 94" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M34.0345 0.496094C15.8014 0.496094 0.968262 15.331 0.968262 33.5663C0.968262 51.2064 31.1986 91.3966 32.4864 93.1007C32.8482 93.5871 33.4278 93.871 34.0347 93.871C34.6416 93.871 35.2213 93.5871 35.5831 93.1007C36.8706 91.3966 67.1012 51.2065 67.1012 33.5663C67.1008 15.331 52.2676 0.496094 34.0345 0.496094ZM34.0345 51.0741C24.3831 51.0741 16.5288 43.219 16.5288 33.5663C16.5288 23.9137 24.3831 16.0585 34.0345 16.0585C43.686 16.0585 51.5402 23.9137 51.5402 33.5663C51.5402 43.219 43.686 51.0741 34.0345 51.0741Z" />
+            <defs>
+              <linearGradient id="paint0_linear" x1="-11.38" y1="0.496093" x2="83.3795" y2="20.869"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4BD8B5" />
+                <stop offset="1" stop-color="#49D6DF" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="tooltiptext">
+            <img src="../assets/images/eagletooltip.png" alt="eagle " class="tooltip-img">
+            <h3 class="tooltiptext-h3">West End Bald Eagle</h3>
+            <p class="tooltiptext-p"><b>Region:</b>on an island near Los Angeles</p>
+            <p class="tooltiptext-p"><b>Population:</b>more than 270 pairs in 2013</p>
+          </div>
+        </div>
+
+        <div class="int-icon-item-gorill tooltip">
+          <img src="../assets/images/gorillaRing.png" alt="gorill" class="item-gorill-img">
+          <svg class="icon-img item-crocodile slide-icon-gorill" width="68" height="94" viewBox="0 0 68 94" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M34.0345 0.496094C15.8014 0.496094 0.968262 15.331 0.968262 33.5663C0.968262 51.2064 31.1986 91.3966 32.4864 93.1007C32.8482 93.5871 33.4278 93.871 34.0347 93.871C34.6416 93.871 35.2213 93.5871 35.5831 93.1007C36.8706 91.3966 67.1012 51.2065 67.1012 33.5663C67.1008 15.331 52.2676 0.496094 34.0345 0.496094ZM34.0345 51.0741C24.3831 51.0741 16.5288 43.219 16.5288 33.5663C16.5288 23.9137 24.3831 16.0585 34.0345 16.0585C43.686 16.0585 51.5402 23.9137 51.5402 33.5663C51.5402 43.219 43.686 51.0741 34.0345 51.0741Z" />
+            <defs>
+              <linearGradient id="paint0_linear" x1="-11.38" y1="0.496093" x2="83.3795" y2="20.869"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4BD8B5" />
+                <stop offset="1" stop-color="#49D6DF" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="tooltiptext">
+            <img src="../assets/images/eagletooltip.png" alt="eagle " class="tooltip-img">
+            <h3 class="tooltiptext-h3">West End Bald Eagle</h3>
+            <p class="tooltiptext-p"><b>Region:</b>on an island near Los Angeles</p>
+            <p class="tooltiptext-p"><b>Population:</b>more than 270 pairs in 2013</p>
+          </div>
+        </div>
+
+        <div class="int-icon-item-panda tooltip">
+          <img src="../assets/images/pandaRing.png" alt="panda" class="item-panda-img">
+          <svg class="icon-img item-crocodile slide-icon-panda" width="68" height="94" viewBox="0 0 68 94" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M34.0345 0.496094C15.8014 0.496094 0.968262 15.331 0.968262 33.5663C0.968262 51.2064 31.1986 91.3966 32.4864 93.1007C32.8482 93.5871 33.4278 93.871 34.0347 93.871C34.6416 93.871 35.2213 93.5871 35.5831 93.1007C36.8706 91.3966 67.1012 51.2065 67.1012 33.5663C67.1008 15.331 52.2676 0.496094 34.0345 0.496094ZM34.0345 51.0741C24.3831 51.0741 16.5288 43.219 16.5288 33.5663C16.5288 23.9137 24.3831 16.0585 34.0345 16.0585C43.686 16.0585 51.5402 23.9137 51.5402 33.5663C51.5402 43.219 43.686 51.0741 34.0345 51.0741Z" />
+            <defs>
+              <linearGradient id="paint0_linear" x1="-11.38" y1="0.496093" x2="83.3795" y2="20.869"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4BD8B5" />
+                <stop offset="1" stop-color="#49D6DF" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <div class="tooltiptext tooltiptext-panda">
+            <img src="../assets/images/eagletooltip.png" alt="eagle " class="tooltip-img">
+            <h3 class="tooltiptext-h3">West End Bald Eagle</h3>
+            <p class="tooltiptext-p"><b>Region:</b>on an island near Los Angeles</p>
+            <p class="tooltiptext-p"><b>Population:</b>more than 270 pairs in 2013</p>
+          </div>
+        </div>
+
+      </div>
+
+      <a href="../pages/zoos/panda/panda.html">
+        <button class="btn-map-watch-online">watch online</button>
+      </a>
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <footer class="footer">
+    <p><a name="bottom"></a></p>
+    <div class="wrapper-block9">
+
+      <div class="wrapper-logo">
+        <div class="footer-logo-light">
+
+          <a class="footer-logo-light-linksrc" href="../index.html">
+            <img class="footer-logo" src="../assets/icons/logoFotter.svg" alt="logo">
+          </a>
+        </div>
+      </div>
+
+      <div class="wrapper-nav">
+        <div class="footer-nav">
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="../index.html">About</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="../pages/zoos/panda/panda.html">Zoos</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="../pages/map.html">Map</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-btn">
+          <button class="footer-btn-donate">donate for volunteers</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="block9-content">
+      <div class="footer-form">
+
+        <h3 class="footer-form-h3">Contact us</h3>
+
+
+        <form>
+          <div class="label-name">
+            <label class="name"></label>
+            <input class="label-name-inp" type="text" id="fname" name="firstname" required placeholder="Name">
+          </div>
+
+
+          <div class="label-email">
+            <label class="email"></label>
+            <input type="email" id="lname" name="lastname" required placeholder="Email">
+          </div>
+
+
+          <fieldset>
+            <legend>Please enter your message</legend>
+            <textarea class="textarea" name="subject" maxlength="280"></textarea>
+          </fieldset>
+          <label for="footer-checkbox" class="container">
+
+            <input type="checkbox" required id="footer-checkbox">
+
+
+            <span class="checkmark"></span>
+            I agree to the processing of Personal Data
+          </label>
+
+
+          <button class="Btn-send">
+            <input type="submit" id="submitB" value="SEND">
+            <img class="btn-send-arr" src="../assets/icons/ArrowSend.svg" alt="arrow">
+          </button>
+        </form>
+
+
+      </div>
+
+      <div class="footer-contacts">
+        <h3 class="footer-contacts-h3">ZOO Online Centre</h3>
+        <p class="footer-contacts-p p1">132, Address District, Street</p>
+        <p class="footer-contacts-p p2">Open Daily 10:00 am - 5:00 pm</p>
+        <p class="footer-contacts-p p3"><a class="footer-tel" href="tel:(702) 163-3433">T(702) 163-3433</a></p>
+        <p class="footer-contacts-p p4"><a class="footer-mail"
+            href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a></p>
+        <div class="footer-social-network">
+          <a class="footer-social-network-item footer-item" href="https://www.instagram.com/" target="_blank">
+            <img src="../assets/icons/instagram.svg" alt="instagram">
+          </a>
+          <a class="footer-social-network-item footer-item" href="https://twitter.com/" target="_blank">
+            <img src="../assets/icons/twitter.svg" alt="twitter">
+          </a>
+          <a class="footer-social-network-item footer-item" href="https://vk.com/" target="_blank">
+            <img src="../assets/icons/vk.svg" alt="vk">
+          </a>
+          <a class="footer-social-network-item footer-item" href="https://www.youtube.com/" target="_blank">
+            <img src="../assets/icons/youtube.svg" alt="youtube">
+          </a>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="footer-footer">
+      <hr>
+      <p class="footer-footer-p">©Noora Sagnayeva</p>
+      <p>©RSSchool and ©Yem Digital - 2021</p>
+
+    </div>
+
+
+
+  </footer>
+
+  <script src="map.js"></script>
+</body>
+
+</html>

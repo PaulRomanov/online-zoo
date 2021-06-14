@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="../../../assets/icons/faviconPanda.ico"> <!-- подключение favicon  -->
+  <link rel="stylesheet" href="../../../normalize.css">
+  
+  <link href="../../../style.css" rel="stylesheet" id="theme">
+  <link href="../../zoosMedia.css" rel="stylesheet">
+  <link href="eagle.css" rel="stylesheet" id="themeEagle">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <title>online-zoo</title>
+</head>
+
+<body>
+  <header>
+    <div class="wrapper-block1">
+      <div class="logo-light">
+        <a class="logo-light-linksrc" href="../../../index.html">
+          <p class="logo-light-zoo" >zoo</p>
+          <p class="logo-light-online">online</p>
+        </a>
+      </div>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="heder-nav-item">
+            <a class="header-nal-link" href="../../../index.html">About</a>
+          </li>
+          <li class="heder-nav-item">
+            <a class="header-nal-link header-nal-link-active " href="#!">Zoos</a>
+          </li>
+          <li class="heder-nav-item">
+            <a class="header-nal-link" href="../../../pages/map.html">Map</a>
+          </li>
+          <li class="heder-nav-item">
+            <a class="header-nal-link" href="#bottom">Contact Us</a>
+          </li>
+          <li class="heder-nav-item">
+            <a class="header-nal-link" href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a>
+          </li>
+        </ul>
+        <div class="header-nav-close">
+          <span class="header-nav-close-line"></span>
+          <span class="header-nav-close-line"></span>
+      </div>
+  </nav>
+  
+  <label class="switch">
+      <input type="checkbox" class="switch-slider">
+      <span class="slider round"></span>
+  </label>
+  <div class="header-burger burger">
+      <div class="burger-line burger-line-first"></div>
+      <div class="burger-line burger-line-second"></div>
+      <div class="burger-line burger-line-third"></div>
+  </div>
+</div>
+    <h1>Online Zoo</h1>
+  </header>
+
+  <div class="wrapper-video">
+
+    <aside class="side-bar">
+      <button class="side-bar-btn-up" id="up" href="#!" role="button" disabled=""></button>
+      <div class="" title="Panda">
+        <a href="../panda/panda.html">
+          <img  class="side-bar-link" src="../../../assets/images/ZoosPanda.png" alt="panda">
+        </a>
+      </div>
+      <div class="" title="Eagle">
+        <img  class="side-bar-img-active " src="../../../assets/images/ZoosEagle-active.png"Eagle">
+      </div>
+      <div class="" title="Crocodile">
+        <a href="../crocodile/crocodile.html">
+          <img  class="side-bar-link" src="../../../assets/images/Zooscrocodile.png" alt="crocodile">
+        </a>
+      </div>
+      <div class="" title="Gorilla">
+        <a href="../gorilla/gorilla.html">
+          <img  class="side-bar-link" src="../../../assets/images/zoosGorilla.png" alt="Gorilla">
+        </a>
+      </div>
+      
+      <button class="side-bar-btn-down" id="up" href="#!" role="button" disabled=""></button>
+    </aside>
+
+    <section class="content">
+      <h2 class="panda-h2">West End Bald Eagle Cam</h2>
+
+      <div class="videos-panda">
+        
+        <iframe class="videos-panda-frame" width="790" height="442" src="https://www.youtube.com/embed/RmmAzrAkKqI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>      
+
+          <div class="small-video">
+            <iframe class="small-video-frame" width="246" height="141" src="https://www.youtube.com/embed/RmmAzrAkKqI" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+            <iframe class="small-video-frame" width="246" height="141" src="https://www.youtube.com/embed/RmmAzrAkKqI" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+            <iframe class="small-video-frame" width="246" height="141" src="https://www.youtube.com/embed/RmmAzrAkKqI" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+  
+          </div>
+          <div class="dot-container">
+            <span class="dot dot-active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          
+      </div>
+
+    </section>
+    
+    <section  class="content-text">
+      <h3 class="content-text-h3">Population:</h3>
+      <p class="content-text-p">More than 270 pairs in 2013</p>
+      <h3 class="content-text-h3">Habitat:</h3>
+      <p class="content-text-p">Typically nest in forested areas adjacent to large bodies of water</p>
+      <h3 class="content-text-h3">Diet:</h3>
+      <p class="content-text-p">Main live prey consists of medium sized mammals and birds such as rabbits,
+         hares, grouse and ptarmigan. The diet of coastal birds includes gulls and other seabirds.</p>
+      <div class="panda-btn">
+        <button class="panda-btn-feed">feed</button>
+      </div>
+    </section>
+
+
+
+  </div>
+
+  <footer class="footer">
+    <p><a name="bottom"></a></p>
+    <div class="wrapper-block9">
+
+      <div class="wrapper-logo">
+        <div class="footer-logo-light">
+          <a class="footer-logo-light-linksrc" href="../../../index.html">
+            <img class="footer-logo" src="../../../assets/icons/logoFotter.svg" alt="logo">
+          </a>
+        </div>
+      </div>
+
+      <div class="wrapper-nav">
+        <div class="footer-nav">
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="../../../index.html">About</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="#!">Zoos</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="../../../pages/map.html">Map</a>
+              </li>
+              <li class="footer-nav-item">
+                <a class="footer-nav-link" href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-btn">
+          <button class="footer-btn-donate">donate for volunteers</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="block9-content">
+      <div class="footer-form">
+
+        <h3 class="footer-form-h3">Contact us</h3>
+
+
+        <form>
+          <div class="label-name">
+            <label class="name"></label>
+            <input class="label-name-inp" type="text" id="fname" name="firstname" required placeholder="Name">
+          </div>
+
+
+          <div class="label-email">
+            <label class="email"></label>
+            <input type="email" id="lname" name="lastname" required placeholder="Email">
+          </div>
+
+
+          <fieldset>
+            <legend>Please enter your message</legend>
+            <textarea class="textarea" name="subject" maxlength="280"></textarea>
+          </fieldset>
+          <label for="footer-checkbox" class="container">
+
+            <input type="checkbox" required id="footer-checkbox">
+
+
+            <span class="checkmark"></span>
+            I agree to the processing of Personal Data
+          </label>
+
+
+          <button class="Btn-send">
+            <input type="submit" id="submitB" value="SEND">
+            <img src="../../../assets/icons/ArrowSend.svg" alt="arrow">
+          </button>
+        </form>
+
+
+      </div>
+
+      <div class="footer-contacts">
+        <h3 class="footer-contacts-h3">ZOO Online Centre</h3>
+        <p class="footer-contacts-p p1">132, Address District, Street</p>
+        <p class="footer-contacts-p p2">Open Daily 10:00 am - 5:00 pm</p>
+        <p class="footer-contacts-p p3"><a class="footer-tel" href="tel:(702) 163-3433">T(702) 163-3433</a></p>
+        <p class="footer-contacts-p p4"><a class="footer-mail"
+            href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a></p>
+        <div class="footer-social-network">
+          <a class="footer-social-network-item footer-item" href="https://www.instagram.com/" target="_blank">
+            <img src="../../../assets/icons/instagram.svg" alt="instagram">
+          </a>
+          <a class="footer-social-network-item footer-item" href="https://twitter.com/" target="_blank">
+            <img src="../../../assets/icons/twitter.svg" alt="twitter">
+          </a>
+          <a class="footer-social-network-item footer-item" href="https://vk.com/" target="_blank">
+            <img src="../../../assets/icons/vk.svg" alt="vk">
+          </a>
+          <a class="footer-social-network-item footer-item" href="https://www.youtube.com/" target="_blank">
+            <img src="../../../assets/icons/youtube.svg" alt="youtube">
+          </a>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="footer-footer">
+      <hr>
+      <p class="footer-footer-p">©Noora Sagnayeva</p>
+      <p>©RSSchool and ©Yem Digital - 2021</p>
+
+    </div>
+
+
+
+  </footer>
+
+
+
+
+  <script src="eagle.js"></script>
+  <!-- <script src="../../zoosJs.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+.wrapper-block1 {
+  height: 99px;
+}
+.wrapper-video {
+  height: 910px;
+  display: flex;
+  margin: 4px 0 0 0;
+  background-color: #3C3C3C;
+}
+
+.side-bar {
+  width: 139px;
+  height: 650px;
+  position: sticky;
+  top: 0;
+  margin: 49px 187px 0px 34px;
+  text-align: center;
+}
+
+.side-bar-btn-up {
+  background-image: url(../../../assets/icons/arrow-up-sidebar.svg);
+  Width: 26px;
+  Height: 23px;
+  border: 0;
+  background-color: #3C3C3C;
+  background-repeat: no-repeat;
+  margin: 6px 0px 0 0px;
+}
+
+.side-bar-btn-down {
+  background-image: url(../../../assets/icons/arrow-down-sidebar.svg);
+  Width: 26px;
+  Height: 23px;
+  border: 0;
+  background-color: #3C3C3C;
+  background-repeat: no-repeat;
+  margin: 11px 1px 0 0px;
+}
+
+img {
+  margin: 10px 0 0 0;
+}
+
+.side-bar-img-active {
+  width: 157px;
+  height: 157px;
+}
+
+.content {
+  width: 792px;
+  height: 781px;
+  margin: 58px 0 0px 0px;
+}
+
+.panda-h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FEFEFE;
+  margin: 1px 0 42px 0;
+}
+
+.videos-panda {
+  margin: 0;
+}
+
+.small-video {
+  width: 781px;
+  display: flex;
+  justify-content: space-between;
+  margin: 26px 0px 0px 5px;
+}
+
+.content-text {
+  width: 393px;
+  height: 450px;
+  margin: 139px 0 0 29px;
+}
+
+.content-text-h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FEFEFE;
+  margin: 15px 0 8px 0;
+}
+
+.content-text-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #F2F2F2;
+}
+
+.panda-btn {
+  margin: 28px 0 0 0px;
+}
+
+.panda-btn-feed {
+  width: 194px;
+  height: 55px;
+  background: linear-gradient(106.89deg, #4BD8B5 -14.32%, #49D6DF 100.68%);
+  border-radius: 3px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 51px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-right: 10px;
+  border-color: #49D6DF;
+  margin: 0px 0 0 0px;
+  padding: 0;
+}
+
+
+
+
+
